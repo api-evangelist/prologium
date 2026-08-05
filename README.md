@@ -1,4 +1,4 @@
-# Prologium
+# ProLogium Technology
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Prologium is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+ProLogium Technology Co., Ltd. is a Taiwanese energy-innovation company founded in 2006 that develops and manufactures next-generation solid-state lithium ceramic batteries built around a 100% ceramic separator. It commercialized its first solid-state cells in 2013, opened the world's first giga-level solid-state lithium ceramic battery plant in Taoyuan, Taiwan in 2024, and operates a European R&D center at Paris-Saclay with a planned gigafactory in Dunkirk, France.
+
+**No API surface.** ProLogium is a hardware manufacturer. As of 2026-08-05 it publishes no developer portal, no public API, and no machine-readable API contract — every contract-discovery path probed on `prologium.com` and `prologium.com.tw` returned the site's WordPress 404 template.
+
+- https://prologium.com/
 - https://forgeglobal.com/prologium_stock/

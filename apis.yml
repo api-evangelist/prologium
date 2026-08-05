@@ -1,7 +1,16 @@
 aid: prologium
-name: Prologium
-description: 'Prologium is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: ProLogium Technology
+description: 'ProLogium Technology Co., Ltd. is a Taiwanese energy-innovation company
+  founded in 2006 that develops and manufactures next-generation solid-state lithium
+  ceramic batteries built around a 100% ceramic separator. It commercialized its first
+  solid-state cells in 2013, opened the world''s first giga-level solid-state lithium
+  ceramic battery plant in Taoyuan, Taiwan in 2024, and operates a European R&D center
+  at Paris-Saclay with a planned gigafactory in Dunkirk, France. Its product lines
+  span FLCB, PLCB and LLCB cells plus battery modules and packs, targeting electric
+  vehicles, energy storage systems, robotics, and consumer and industrial applications.
+  ProLogium is a hardware manufacturer: it publishes no developer portal, no public
+  API, and no machine-readable API contract of any kind.'
+image: https://prologium.com/wp-content/uploads/2021/04/ProLogium-Group-fav.png
 url: https://raw.githubusercontent.com/api-evangelist/prologium/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +21,14 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Battery
+- Solid-State Battery
+- Energy Storage
+- Electric Vehicles
+- Manufacturing
+- Hardware
+- Automotive
+- Taiwan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +36,62 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/prologium-domain-security.yml
 - type: Website
+  url: https://prologium.com/
+- type: About
+  url: https://prologium.com/about/
+- type: Blog
+  url: https://prologium.com/news/
+- type: BlogRSS
+  url: https://prologium.com/feed/
+- type: Support
+  url: https://prologium.com/contact/
+- type: PrivacyPolicy
+  url: https://prologium.com/privacy-cookie/
+- type: Careers
+  url: https://prologium.com/careers-apac/
+- type: Investors
+  url: https://prologium.com/investors/
+- type: Certifications
+  url: https://prologium.com/certification/
+- type: Products
+  url: https://prologium.com/products/
+- type: Technology
+  url: https://prologium.com/tech/core-technology/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/13667317
+- type: Twitter
+  url: https://twitter.com/ProLogium
+- type: YouTube
+  url: https://www.youtube.com/user/prologium
+- type: Facebook
+  url: https://www.facebook.com/prologium.tech/
+- type: SecondaryMarket
   url: https://forgeglobal.com/prologium_stock/
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: ProLogium manufactures solid-state lithium ceramic battery cells, modules
+    and packs — its site is a WordPress marketing and investor-relations presence with
+    no developer section, and every contract-discovery path (/openapi.json, /swagger.json,
+    /api-docs, /graphql, /llms.txt, /.well-known/agent-card.json) returns the same
+    WordPress 404 template on both prologium.com and prologium.com.tw.
+  evidence:
+  - url: https://prologium.com/openapi.json
+    status: 404
+  - url: https://prologium.com/.well-known/agent-card.json
+    status: 404
+  - url: https://prologium.com/developers
+    status: 404
+  - url: https://prologium.com/llms.txt
+    status: 404
+  - url: https://prologium.com/sitemap.xml
+    status: 200
+  checked: '2026-08-05'
