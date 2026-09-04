@@ -21,6 +21,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://prologium.com/wp-content/uploads/2021/04/ProLogium-Group-fav.png
 url: https://raw.githubusercontent.com/api-evangelist/prologium/refs/heads/main/apis.yml
 x-type: company
